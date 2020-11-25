@@ -113,7 +113,7 @@ $(function () {
                                 
                     // 3、页面跳转到个人主页
                                 
-                                location.href = '/index.html'
+                        location.href = '/home/index.html'
                                 //location.href 做了啥：
                                 // 1、发送了一个同步的get请求
                                 // 2、跳转页面
