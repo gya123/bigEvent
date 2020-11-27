@@ -19,7 +19,7 @@
     <!-- 头部区域（可配合layui已有的水平导航） -->
   
     <ul class="layui-nav layui-layout-right">
-     
+      <li class="layui-nav-item" id="image"></li>
       <li class="layui-nav-item">
        
         <a href="javascript:;">
@@ -46,7 +46,7 @@
           </div>
       <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
       <ul class="layui-nav layui-nav-tree"  lay-filter="test" lay-shrink="all">
-        <li class="layui-nav-item layui-this" ><a href=""><i class="layui-icon layui-icon-home iconcommen"></i>   首页</a></li>
+        <li class="layui-nav-item layui-this" ><a href="/home/dashboard.html" target="fm"><i class="layui-icon layui-icon-home iconcommen"></i>   首页</a></li>
         <li class="layui-nav-item ">
           <a class="" href="javascript:;"><i class="layui-icon layui-icon-file iconcommen"></i>   文章管理</a>
           <dl class="layui-nav-child">
@@ -58,9 +58,9 @@
         <li class="layui-nav-item">
           <a href="javascript:;"><i class="layui-icon layui-icon-username iconcommen"></i>   个人中心</a>
           <dl class="layui-nav-child">
-            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i>基本资料</a></dd>
-            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i>更换头像</a></dd>
-            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i>重置密码</a></dd>
+            <dd><a href="/home/personal center/basic information.html" target="fm"><i class="layui-icon layui-icon-app"></i>基本资料</a></dd>
+            <dd><a href="/home/personal center/changeavatar.html" target="fm"><i class="layui-icon layui-icon-app"></i>更换头像</a></dd>
+            <dd><a href="/home/personal center/resetpasswords.html" target="fm"><i class="layui-icon layui-icon-app"></i>重置密码</a></dd>
           </dl>
         </li>
       </ul>
@@ -70,7 +70,7 @@
   <!-- 中间的主体 -->
   <div class="layui-body">
     <!-- 内容主体区域 -->
-    <div style="padding: 15px;"><iframe src="./dashboard.html" frameborder="0"></iframe></div>
+    <div style="padding: 15px;"><iframe src="/home/personal center/changeavatar.html" frameborder="0" name="fm"></iframe></div>
   </div>
   
   <!-- 网页底部 -->
